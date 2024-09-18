@@ -9,3 +9,7 @@ dist
 vhs
 .idea/
 .vscode/
+Library
+go
+result-*
+
