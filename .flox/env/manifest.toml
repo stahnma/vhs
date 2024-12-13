@@ -58,13 +58,10 @@ on-activate = '''
 # I want a version keyword (not specified yet) and optional command to pull from file, git, etc
 # 
 
-#command = "export HOME=$PWD; go mod tidy; go build -o $out/bin/vhs"
-#command = "export HOME=$PWD; cp -a --no-preserve=mode  ${vhstidy}/Library ${vhstidy}/go . &&  go build -o $out/bin/vhs"
 command = "export HOME=$PWD; cp -a --no-preserve=mode  ${vhstidy}/Library . &&  go build -o $out/bin/vhs"
 sandbox = "pure"
 
 [build.vhstidy]
-#command = "export HOME=$PWD; go mod tidy; mkdir -p $out && cp -a Library go $out "
 command = "export HOME=$PWD; go mod tidy; mkdir -p $out && cp -a Library  $out "
 sandbox = "off"
 
