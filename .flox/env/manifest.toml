@@ -69,7 +69,7 @@ on-activate = '''
 
 [build.vhs]
 command = "go mod tidy; go build; mkdir -p $out/bin ; mv vhs $out/bin"
-sandbox = "off"
+# sandbox = "off"
 
 
 ## Other Environment Options -----------------------------------------

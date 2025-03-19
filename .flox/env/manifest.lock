@@ -32,11 +32,7 @@
     },
     "build": {
       "vhs": {
-        "command": "go mod tidy; go build; mkdir -p $out/bin ; mv vhs $out/bin",
-        "files": null,
-        "runtime-packages": null,
-        "systems": null,
-        "sandbox": "off"
+        "command": "go mod tidy; go build; mkdir -p $out/bin ; mv vhs $out/bin"
       }
     }
   },
