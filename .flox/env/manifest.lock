@@ -24,10 +24,6 @@
         "x86_64-darwin",
         "x86_64-linux"
       ],
-      "allow": {
-        "licenses": []
-      },
-      "semver": {},
       "cuda-detection": false
     },
     "build": {
@@ -317,8 +313,8 @@
       "unfree": false,
       "version": "1.7.7",
       "outputs_to_install": [
-        "out",
-        "man"
+        "man",
+        "out"
       ],
       "outputs": {
         "man": "/nix/store/00jmx45n25lkhpwwk9qb2byk84d7h92k-ttyd-1.7.7-man",
@@ -348,8 +344,8 @@
       "unfree": false,
       "version": "1.7.7",
       "outputs_to_install": [
-        "out",
-        "man"
+        "man",
+        "out"
       ],
       "outputs": {
         "man": "/nix/store/vb62b4dpwzk6bvb5srb04a4ghrdmyjw1-ttyd-1.7.7-man",
@@ -379,8 +375,8 @@
       "unfree": false,
       "version": "1.7.7",
       "outputs_to_install": [
-        "out",
-        "man"
+        "man",
+        "out"
       ],
       "outputs": {
         "man": "/nix/store/qpvniqxj14bfb6zqqq9bsd6bcb07vwir-ttyd-1.7.7-man",
@@ -410,8 +406,8 @@
       "unfree": false,
       "version": "1.7.7",
       "outputs_to_install": [
-        "out",
-        "man"
+        "man",
+        "out"
       ],
       "outputs": {
         "man": "/nix/store/y72ivm3bz9c8j85fxs7shg0fl34r380c-ttyd-1.7.7-man",
