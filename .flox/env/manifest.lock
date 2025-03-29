@@ -29,6 +29,7 @@
     "build": {
       "vhs": {
         "command": "go mod tidy; go build; mkdir -p $out/bin ; mv vhs $out/bin",
+        "version": "0.0.2",
         "description": "Build VHS (Go) executable"
       }
     }
