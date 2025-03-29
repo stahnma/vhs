@@ -70,7 +70,7 @@ on-activate = '''
 [build.vhs]
 command = "go mod tidy; go build; mkdir -p $out/bin ; mv vhs $out/bin"
 description = "Build VHS (Go) executable"
-version = "0.0.2"
+version = "0.0.3"
 # sandbox = "off"
 
 
